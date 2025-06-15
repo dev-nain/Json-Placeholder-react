@@ -2,7 +2,11 @@ import "./App.css";
 import Posts from "./axios/posts";
 
 function App() {
-  return <Posts />;
+  return (
+    <div className="App">
+      <Posts />
+    </div>
+  );
 }
 
 export default App;
